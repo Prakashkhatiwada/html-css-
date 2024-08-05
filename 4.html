@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Image</title>
+    <style>
+        body {
+            margin: 34;
+            padding: 24;
+            font-family: Arial, sans-serif;
+        }
+        .portfolio {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #03c9ec;
+        }
+        .portfolio img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* or 'cover' or 'fill' depending on your preference */
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio">
+        <img src="Picture.jpg" alt="Portfolio Image">
+    </div>
+</body>
+</html>

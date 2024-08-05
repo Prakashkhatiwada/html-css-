@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    border: 2px solid #000
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.header span,
+.header a {
+    margin-right: 20px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.name span{
+    margin-right: 200px;
+
+}
+
+.menu {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    padding-right: 30px;
+    border-right: 1px solid #000;
+    text-align: center;
+}
+
+.sidebar h3 {
+    margin-top:0;
+}
+
+.sidebar ul {
+    list-style-type: style type disc;
+    padding-left: 0; 
+    list-style-position: inside;
+}
+
+.sidebar ul li {
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+.sidebar ul li a {
+    color: blue;
+}
+
+.mainbody {
+    width: 70%;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+
+.mainbody img {
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #000;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <span>Phone: 01-545454545</span>
+        <span>Address: Kirtipur, Kathmandu</span>
+        <a href="#" class="link">Social Media List (Link)</a>
+    </div>
+    <div class="name">
+       <span> <img src="logo.jpg" alt="Logo"  ></span>
+    
+      <span><h1>Website Name</h1></span>
+    </div>
+    <div class="menu">Menu</div>
+    <div class="main">
+        <div class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Post1 title</a></li>
+                <li><a href="#">Post2 title</a></li>
+                <li><a href="#">Post3 title</a></li>
+                <li><a href="#">Post4 title</a></li>
+                <li><a href="#">Post5 title</a></li>
+            </ul>
+        </div>
+        <div class="mainbody">
+           </span> <img src="image.jpg" alt="Image">
+            <p>Description..............................(paragraph)</p>
+        </div>
+    </div>
+    <div class="footer">Copyright © Your site name</div>
+</body>
+</html>
